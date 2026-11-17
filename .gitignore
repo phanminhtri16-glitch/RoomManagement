@@ -1,0 +1,44 @@
+# CodeGraph
+.codegraph/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# IDE and Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Node / Backend
+node_modules/
+backend/functions/node_modules/
+backend/functions/lib/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Flutter / Dart
+frontend/.dart_tool/
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/coverage/
+frontend/doc/api/
+frontend/ios/Flutter/.last_build_id
+frontend/android/app/debug
+frontend/android/app/profile
+frontend/android/app/release
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
